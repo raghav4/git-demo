@@ -1,51 +1,51 @@
-   84  git config --global user.name 'Raghav'
-   85  git config --global user.email 'raghavsyt@gmail.com'
-   86  git add index.html
-   87  git status
-   88  git rm --cached index.html
-   89   git status
-   90  git add *.html
-   91  git status
-   92   git rm --cached index.html
-   93  git status
-   94  git add .
-   95  git status
-   96  git status
-   97   git add .
-   98  git status
-   99  git commit
-  100  git status
-  101  git add .
-  102  git commit -m "changed script.js"
-  103  git status
-  104  git add .
-  105  git status
-  106  git status
-  107  git add .
-  108  git status
-  109  git branch loginBranch
-  110  git status
-  111   git commit -m "another commit"
-  112   git checkout login
-  113   git checkout loginBranch
-  114  git commit -m "Login Branch"
-  115  git add .
-  116  git status
-  117   git checkout master
-  118   git checkout loginBranch
-  119  git add .
-  120  git statsus
-  121  git status
-  122  git commit -m 'logged'
-  123  git status
-  124  git checkout master
-  125  git merge loginBranch
-  126   git add README.md
-  127  touch README.md
-  128  git status
-  129  git add .
-  130  git commit -m 'added readme'
-  131  git remote add origin https://github.com/raghav4/git-demo.git
-  132  git push -u origin master
-  133  git status
-  134  history > history.txt
+git config --global user.name 'Raghav'
+git config --global user.email 'raghavsyt@gmail.com'
+git add index.html
+git status
+git rm --cached index.html
+git status
+git add *.html
+git status
+git rm --cached index.html
+git status
+git add .
+git status
+git status
+git add .
+git status
+git commit
+git status
+git add .
+git commit -m "changed script.js"
+git status
+git add .
+git status
+git status
+git add .
+git status
+git branch loginBranch
+git status
+git commit -m "another commit"
+git checkout login
+git checkout loginBranch
+git commit -m "Login Branch"
+git add .
+git status
+git checkout master
+git checkout loginBranch
+git add .
+git statsus
+git status
+git commit -m 'logged'
+git status
+git checkout master
+git merge loginBranch
+git add README.md
+touch README.md
+git status
+git add .
+git commit -m 'added readme'
+git remote add origin https://github.com/raghav4/git-demo.git
+git push -u origin master
+git status
+history > history.txt
